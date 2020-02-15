@@ -1,0 +1,23 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+
+        <body>
+            <a-assets>
+                <img id="texture1" src="image.jpg">
+            </a-assets>
+            <a-scene>
+                <a-box color="white" width="2" height="1" depth="1"
+                position="-2.57 1.245 1.073" rotaion="-34.044 8.905 -15.482" scale="1 2.500 4.424" src="#texture1"
+                animation="property: position; to: 5 1.6 0; dur:indefinite; easing: linear"></a-box>
+            
+                </a-box>
+                <a-sphere position=" 2.685 1.177 3" radius="0.3" color="green" rotation="0 0 6"></a-sphere>
+                <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="yellow"></a-cylinder>
+                <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="black"></a-plane>
+                <a-sky color="cyan"></a-sky>
+            </a-scene>
+        </body>
+    </head>
+</html>
